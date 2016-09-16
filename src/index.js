@@ -14,7 +14,8 @@ request_builder.prototype.init = function(req){
     this.set_user_agent(req);
     this.request.url = req.url;
     this.request.method = req.method;
-    return request ;
+     let request  = this.request;
+    return request;
 }
 
 request_builder.prototype.mixin_locals = function(){
