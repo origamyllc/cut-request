@@ -1,6 +1,6 @@
 {
   "name": "cut-requests",
-  "version": "0.0.2dv",
+  "version": "0.0.3dv",
   "description": "",
   "main": "./bin/index.js",
   "scripts": {
