@@ -18,8 +18,7 @@ request_builder.prototype.init = function(req){
 }
 
 request_builder.prototype.mixin_locals = function(){
-    app.locals.env = process.env.NODE_ENV;
-    this.request.env =  app.locals.env;
+    this.request.env =  process.env.NODE_ENV;
 }
 
 request_builder.prototype.generate_uuid = function(req){
