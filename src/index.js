@@ -1,3 +1,5 @@
+let uuid = require('uuid');
+
 //  create a request shim
 function  request_builder(){
     this.request = {};
