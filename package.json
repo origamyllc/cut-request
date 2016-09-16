@@ -21,6 +21,6 @@
     "babel-register": "^6.8.0"
   },
   "dependencies": {
-
+    "node-uuid": "^1.4.7",
   }
 }
