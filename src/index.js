@@ -72,6 +72,6 @@ request_builder.prototype.set_user_agent = function(req){
 const $request_builder = new request_builder();
 
 export function  cut_request(req, res, next){
-    $request_builder.init(req);
+    req.request = $request_builder.init(req);
     next();
 }
